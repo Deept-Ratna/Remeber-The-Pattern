@@ -1,0 +1,151 @@
+body {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #bbe9db, #3fd6b8);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  h1
+  {
+    background-color: #bbe9db;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #f7f7f7;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  h3
+  {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #221f1f;
+  }
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+  }
+  
+  .btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 1rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .yellow {
+    background-color: #f9e406;
+  }
+  
+  .red {
+    background-color: #f62020;
+  }
+  
+  .purple {
+    background-color: #c019ee;
+  }
+  
+  .green {
+    background-color: #29dc29;
+  }
+  
+  .flash {
+    background-color: #ffffff;
+    box-shadow: 0 0 20px #ffffff;
+  }
+  
+  .userflash {
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+  }
+  
+  #startBtn, #resetBtn, #difficulty {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  #startBtn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  #resetBtn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  #difficulty {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  #startBtn:hover, #resetBtn:hover, #difficulty:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  audio {
+    display: none;
+  }
+  /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
